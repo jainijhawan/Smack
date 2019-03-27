@@ -16,6 +16,7 @@
 		F7ECC345224A417600947A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ECC343224A417600947A69 /* Main.storyboard */; };
 		F7ECC347224A417700947A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ECC346224A417700947A69 /* Assets.xcassets */; };
 		F7ECC34A224A417700947A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ECC348224A417700947A69 /* LaunchScreen.storyboard */; };
+		F7FC83BB224C10A80037D85F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC83BA224C10A80037D85F /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F7ECC346224A417700947A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7ECC349224A417700947A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7ECC34B224A417700947A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FC83BA224C10A80037D85F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F704F9B9224B9E3B00946C02 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F7FC83BA224C10A80037D85F /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				F70DE880224A5B3300AC054B /* File.swift in Sources */,
 				F7ECC340224A417600947A69 /* AppDelegate.swift in Sources */,
+				F7FC83BB224C10A80037D85F /* GradientView.swift in Sources */,
 				F70DE884224A5B6E00AC054B /* SWRevealViewController.m in Sources */,
 				F704F9BE224B9E6900946C02 /* ChannelVC.swift in Sources */,
 				F704F9BC224B9E5B00946C02 /* ChatVC.swift in Sources */,
